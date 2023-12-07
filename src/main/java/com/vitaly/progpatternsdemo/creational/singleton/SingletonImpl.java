@@ -1,8 +1,7 @@
 package com.vitaly.progpatternsdemo.creational.singleton;
 
 /*
-07-Dec-23
-gh /crazym8nd
+делаем потокобезопасный синглтон, но ресурсоемкий
 */
 public final class SingletonImpl {
     private static volatile SingletonImpl instance;

@@ -129,3 +129,11 @@ w
 Gsrc/main/java/com/vitaly/progpatternsdemo/creational/builder/Build.java,9\c\9c718bd9174acacdc64e50bf6b8074e1f68f2a5c
 }
 Msrc/main/java/com/vitaly/progpatternsdemo/creational/builder/BuilderDemo.java,1\6\1675151aca628377806a7ffb0085a5a0dea0fab2
+x
+Hsrc/main/java/com/vitaly/progpatternsdemo/creational/prototype/Lama.java,a\7\a71e12e0308700040fa615eca4cd7c0a2296ff33
+|
+Lsrc/main/java/com/vitaly/progpatternsdemo/creational/prototype/PinkLama.java,4\1\4124b4a5b112c36732b71a85f703720ecb0cecc9
+
+Osrc/main/java/com/vitaly/progpatternsdemo/creational/prototype/RainbowLama.java,b\3\b31c4d90a2e993c53aff71535ef0b7eaa023a805
+Å
+Qsrc/main/java/com/vitaly/progpatternsdemo/creational/prototype/PrototypeDemo.java,4\1\410346d44633ccc9dba27172ad75d8bf7ead85bf

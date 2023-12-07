@@ -105,3 +105,7 @@ Wsrc/main/java/com/vitaly/progpatternsdemo/creational/abstractfactory/SwordsmanH
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+Å
+Qsrc/main/java/com/vitaly/progpatternsdemo/creational/singleton/SingletonDemo.java,9\6\968f841d93a341b1c65ad3447d26b3fe327870a2
+Å
+Qsrc/main/java/com/vitaly/progpatternsdemo/creational/singleton/SingletonImpl.java,2\9\29ffb97f6b944f5e4a419031737b44fe58026c07

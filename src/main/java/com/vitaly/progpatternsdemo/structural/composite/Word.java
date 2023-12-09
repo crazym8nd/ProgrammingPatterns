@@ -13,6 +13,7 @@ public class Word extends LetterComposite {
             this.add(new Letter(letter));
         }
     }
+    @Override
     protected void printThisBefore(){
         System.out.print(" ");
     }

@@ -11,7 +11,7 @@ public class RainbowLama implements Lama {
         this.name = name;
     }
 
-    public Lama clone() {
+    public Lama copy() {
         return new RainbowLama(this.name);
     }
     public String getName(){

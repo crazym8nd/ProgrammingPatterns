@@ -5,19 +5,19 @@ package com.vitaly.progpatternsdemo.structural.decorator;
 gh /crazym8nd
 */
 public class ClubbedTroll implements Troll{
-    private final Troll clubbedtroll;
-    public ClubbedTroll(Troll clubbedtroll){
-    this.clubbedtroll = clubbedtroll;
+    private final Troll trollThatGetsAClub;
+    public ClubbedTroll(Troll trollThatGetsAClub){
+    this.trollThatGetsAClub = trollThatGetsAClub;
     }
 
     @Override
     public int getAttackPower() {
-        return clubbedtroll.getAttackPower() + 9000;
+        return trollThatGetsAClub.getAttackPower() + 9000;
     }
 
     @Override
     public void attack() {
-        clubbedtroll.attack();
+        trollThatGetsAClub.attack();
         System.out.print(" with BIG CLUB!");
     }
 }

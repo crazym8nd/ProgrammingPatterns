@@ -7,7 +7,7 @@ gh /crazym8nd
 public abstract class Hero {
     String klass;
     HeroType heroType;
-    public Hero(String klass){
+    protected Hero(String klass){
         this.klass = klass;
     }
     public void setHeroType(HeroType heroType){

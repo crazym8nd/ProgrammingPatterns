@@ -6,5 +6,5 @@ gh /crazym8nd
 */
 public enum PotionType {
     HEALING,
-    INVISIBILITY;
+    INVISIBILITY
 }

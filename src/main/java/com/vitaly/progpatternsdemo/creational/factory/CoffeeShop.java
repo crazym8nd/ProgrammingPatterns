@@ -5,9 +5,9 @@ package com.vitaly.progpatternsdemo.creational.factory;
 gh /crazym8nd
 */
 public class CoffeeShop {
-    private CoffeeFactory coffeeFactory = null;
-    public CoffeeShop(CoffeeFactory COFFEE_FACTORY){
-        this.coffeeFactory = COFFEE_FACTORY;
+    private CoffeeFactory coffeeFactory;
+    public CoffeeShop(CoffeeFactory coffeeFactory){
+        this.coffeeFactory = coffeeFactory;
     }
     public Coffee orderCoffee(CoffeeType type){
         Coffee coffee = coffeeFactory.createCoffee(type);

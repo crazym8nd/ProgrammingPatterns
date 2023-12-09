@@ -5,14 +5,15 @@ package com.vitaly.progpatternsdemo.structural.adapter;
 gh /crazym8nd
 */
 public class FirstBankAdapter extends FirstBank {
-    private SecondBank secondBank;
+    private final SecondBank secondBank;
     public FirstBankAdapter (SecondBank secondBank) {
         this.secondBank = secondBank;
     }
+    @Override
     public int getUsd() {
-        int usd = secondBank.getTenge() / 460;
-        return usd;
+        return secondBank.getTenge() / 460;
     }
+    @Override
     public String showBalance() {
         return (getUsd() + " доллар");
     }

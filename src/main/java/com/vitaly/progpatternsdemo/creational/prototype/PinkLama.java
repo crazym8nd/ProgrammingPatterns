@@ -10,7 +10,7 @@ public class PinkLama implements Lama{
     public PinkLama(String name){
         this.name = name;
     }
-    public Lama clone(){
+    public Lama copy(){
         return new PinkLama(this.name);
     }
     public String getName(){

@@ -5,7 +5,7 @@ package com.vitaly.progpatternsdemo.creational.prototype;
 gh /crazym8nd
 */
 public interface Lama {
-    Lama clone();
+    Lama copy();
     String getName();
     void setName(String name);
 }

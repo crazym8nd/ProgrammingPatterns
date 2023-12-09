@@ -5,7 +5,7 @@ package com.vitaly.progpatternsdemo.structural.adapter;
 gh /crazym8nd
 */
 class FirstBank {
-    private int usd;
+    private final int usd;
     public FirstBank () { usd = 1000;}
     public int getUsd() { return usd;
     }

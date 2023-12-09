@@ -18,7 +18,5 @@ public class Car {
     public void buildEngine(Engine engine) {
         System.out.println("Ставим движок: " + engine.getEngineType());
     }
-    private void print(String msg){
-        System.out.println(msg);
-    }
+
 }

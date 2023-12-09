@@ -9,18 +9,18 @@ public class PrototypeDemo {
         Lama pinkPtototype = new PinkLama("Mr. Pink");
         Lama rainbowPrototype = new RainbowLama("Mr. Rainbow");
 
-        Lama clonePinkLama = pinkPtototype.clone();
-        Lama cloneRainbowLama = rainbowPrototype.clone();
+        Lama clonePinkLama = pinkPtototype.copy();
+        Lama cloneRainbowLama = rainbowPrototype.copy();
 
         clonePinkLama.setName("Mr. Pink Clone");
         cloneRainbowLama.setName("Mr. Rainbow Clone");
 
-        Lama cloneRandomLama = null;
+        Lama cloneRandomLama;
         if (Math.random() > 0.5) {
-            cloneRandomLama = pinkPtototype.clone();
+            cloneRandomLama = pinkPtototype.copy();
             cloneRandomLama.setName("Mr. Random Pink Clone");
         } else {
-            cloneRandomLama = rainbowPrototype.clone();
+            cloneRandomLama = rainbowPrototype.copy();
             cloneRandomLama.setName("Mr. Random Rainbow Clone");
         }
 

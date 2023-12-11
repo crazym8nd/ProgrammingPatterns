@@ -40,6 +40,7 @@ public class TreasureChestItemIterator implements Iterator<Item>{
                 tempIdx = -1;
                 break;
             }
+            //не понимаю
             if (type.equals(ItemType.ANY) || items.get(tempIdx).getType().equals(type)) {
                 break;
             }

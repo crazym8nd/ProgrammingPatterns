@@ -1,8 +1,7 @@
 package com.vitaly.progpatternsdemo.behavioral.templatemethod;
 
 /*
-09-Dec-23
-gh /crazym8nd
+в данном случае омжно было сделать через перегрузку методов
 */
 public class TemplateMethodDemo {
     public static void main(String[] args) {

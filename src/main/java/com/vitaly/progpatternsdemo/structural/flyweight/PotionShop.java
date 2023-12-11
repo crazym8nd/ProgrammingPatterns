@@ -12,6 +12,9 @@ public class PotionShop {
     private final List<Potion> secondShelf;
 
     public PotionShop(){
+
+        //создаем фабрику для создания обьектов,когда они запрашиваются впервые
+        // если уже есть такой тип, то возвращаем этот обьект
         PotionFactory factory = new PotionFactory();
         firstShelf = Arrays.asList(
                 factory.createPotion(PotionType.INVISIBILITY),

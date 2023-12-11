@@ -1,8 +1,7 @@
 package com.vitaly.progpatternsdemo.behavioral.mediator;
 
 /*
-09-Dec-23
-gh /crazym8nd
+взаимосвязь между пати мемберами
 */
 public class MediatorDemo {
     public static void main(String[] args) {

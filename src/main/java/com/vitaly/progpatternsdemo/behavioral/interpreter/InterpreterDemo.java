@@ -3,17 +3,19 @@ package com.vitaly.progpatternsdemo.behavioral.interpreter;
 import java.util.Stack;
 
 /*
-09-Dec-23
-gh /crazym8nd
+можно сденлать через deque чтобы была история операций и проверка на наличие
 */
 public class InterpreterDemo {
     public static void main(String[] args) {
 
-        final String tokenString = "4 3 2 1 + ";
+        final String tokenString = "4 2 + 1 + ";
 
         Stack<Expression> stack = new Stack<>();
 
+        //считываем строку и разбиваем ее по пробелам
         String[] tokenList = tokenString.split(" ");
+
+        //проходим по каждому токену и делаем вычисление
         for (String s : tokenList) {
             if (isOperator(s)) {
 

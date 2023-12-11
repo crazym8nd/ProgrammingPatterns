@@ -1,8 +1,9 @@
 package com.vitaly.progpatternsdemo.creational.builder;
 
 /*
-07-Dec-23
-gh /crazym8nd
+мы сделали кострукторы
+при передаче разных параметров используются разные имплементации
+нам не важно что там куда как,мы знаем какой параметр приведет к нужной реализации
 */
 public class BuilderDemo {
     public static void main(String[] args) {

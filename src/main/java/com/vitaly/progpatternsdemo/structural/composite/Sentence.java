@@ -3,8 +3,7 @@ package com.vitaly.progpatternsdemo.structural.composite;
 import java.util.List;
 
 /*
-09-Dec-23
-gh /crazym8nd
+дополнительная логика для создание предложений
 */
 public class Sentence extends LetterComposite {
     public Sentence (List<Word> words){

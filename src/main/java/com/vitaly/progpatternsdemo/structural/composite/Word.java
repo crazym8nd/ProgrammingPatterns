@@ -1,8 +1,7 @@
 package com.vitaly.progpatternsdemo.structural.composite;
 
 import java.util.List;/*
-09-Dec-23
-gh /crazym8nd
+вносим необходимую логику для компоновке на более высоком уровне
 */
 public class Word extends LetterComposite {
     public Word(List<Letter> letters) {

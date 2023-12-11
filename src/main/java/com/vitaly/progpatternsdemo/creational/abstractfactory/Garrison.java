@@ -1,8 +1,7 @@
 package com.vitaly.progpatternsdemo.creational.abstractfactory;
 
 /*
-07-Dec-23
-gh /crazym8nd
+
 */
 public abstract class Garrison {
     public Hero create(HeroFactory heroFactory, String HeroType) {

@@ -1,7 +1,7 @@
 package com.vitaly.progpatternsdemo.creational.factory;
 
 /*
-07-Dec-23
+принимает какой тип создавать и создаем новый объект
 gh /crazym8nd
 */
 public class CoffeeFactory {

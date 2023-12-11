@@ -6,6 +6,7 @@ gh /crazym8nd
 */
 public class CompositeDemo {
     public static void main(String[] args) {
+
         Messenger messenger = new Messenger();
 
         System.out.println("Message from the orcs: ");

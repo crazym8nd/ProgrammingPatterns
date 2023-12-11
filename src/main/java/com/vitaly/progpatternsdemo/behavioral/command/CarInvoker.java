@@ -1,8 +1,7 @@
 package com.vitaly.progpatternsdemo.behavioral.command;
 
 /*
-09-Dec-23
-gh /crazym8nd
+обработчик, в качестве параметра передаем машину с которой он будет работать
 */
 public class CarInvoker {
     public void setCommand(Command command) {

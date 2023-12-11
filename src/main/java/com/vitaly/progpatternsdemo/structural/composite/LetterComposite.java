@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
-09-Dec-23
-gh /crazym8nd
+пишем логику компоновки обьектов, создаем из них список
 */
 public abstract class LetterComposite {
     private final List<LetterComposite> children = new ArrayList<>();

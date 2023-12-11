@@ -4,8 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /*
-09-Dec-23
-gh /crazym8nd
+берем список слов и создаем предложение
 */
 public class Messenger {
 

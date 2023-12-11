@@ -2,7 +2,7 @@ package com.vitaly.progpatternsdemo.structural.composite;
 
 /*
 09-Dec-23
-gh /crazym8nd
+реализация компоновки на самом базовом уровне
 */
 public class Letter extends LetterComposite {
 

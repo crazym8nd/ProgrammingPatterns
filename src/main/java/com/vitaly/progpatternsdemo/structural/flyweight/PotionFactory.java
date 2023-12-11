@@ -5,7 +5,7 @@ import java.util.Map;
 
 /*
 09-Dec-23
-gh /crazym8nd
+логика создания нового обьекта
 */
 public class PotionFactory {
     private final Map<PotionType, Potion> potions;

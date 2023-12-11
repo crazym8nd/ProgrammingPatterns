@@ -1,11 +1,13 @@
 package com.vitaly.progpatternsdemo.creational.abstractfactory;
 
 /*
-07-Dec-23
-gh /crazym8nd
+можем легк осоздать новый тип войск при необходимости
+быть уверенными в соблюдении контрактов
 */
 public class AbstractFactoryDemo {
     public static void main(String[] args) {
+
+
         Garrison garrison;
 
 

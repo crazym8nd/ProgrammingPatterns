@@ -1,8 +1,9 @@
 package com.vitaly.progpatternsdemo.creational.prototype;
 
 /*
-07-Dec-23
-gh /crazym8nd
+сделали прототипы дял каждой
+мы сделали копию: созранили важыне данные и изменили то что хотели в клоне
+так же как и при легковесе для облегчения нагрузки на процессор
 */
 public class PrototypeDemo {
     public static void main(String[] args) {

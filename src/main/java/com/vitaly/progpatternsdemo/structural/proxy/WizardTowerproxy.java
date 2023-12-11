@@ -1,7 +1,7 @@
 package com.vitaly.progpatternsdemo.structural.proxy;
 
 /*
-09-Dec-23
+заместитель для ivoryTower, позвоялет контролировать доступ к ivorytower
 gh /crazym8nd
 */
 public class WizardTowerproxy implements WizardTower{

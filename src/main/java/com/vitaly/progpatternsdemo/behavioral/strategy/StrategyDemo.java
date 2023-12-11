@@ -1,8 +1,7 @@
 package com.vitaly.progpatternsdemo.behavioral.strategy;
 
 /*
-09-Dec-23
-gh /crazym8nd
+в данномслучае можно было обойтись функциональынм интерфейсом
 */
 public class StrategyDemo {
     private static final String GREEN_DRAGON_SPOTTED = "Green dragon spotted ahead!";
